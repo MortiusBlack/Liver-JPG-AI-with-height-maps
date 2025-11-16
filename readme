@@ -1,0 +1,13 @@
+# Liver AI Multi-task Model
+
+This repository provides **pre-trained weights** and architecture for a liver pathology scoring model using ResNet50 (grayscale + heightmap input).
+
+Training scripts are not included — weights are provided only for inference and experimentation.
+
+
+
+- Predicts 4 liver pathology scores: steatosis, fibrosis, cirrhosis, inflammation
+- Generates corresponding heightmaps from uploaded images
+- Baseline normalization applied (lowest score set to 0)
+- Contrast & brightness enhanced automatically before heightmap generation
+- Fully open-source weights (`FinalModel.pth`)
