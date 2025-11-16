@@ -10,4 +10,4 @@ Training scripts are not included — weights are provided only for inference an
 - Generates corresponding heightmaps from uploaded images
 - Baseline normalization applied (lowest score set to 0)
 - Contrast & brightness enhanced automatically before heightmap generation
-- Fully open-source weights (`FinalModel.pth`)
+- Fully open-source weights (`FinalModel.pth`) which will provided as google drive link upon request. Anyone can refine it further.
